@@ -1,0 +1,31 @@
+# Claude Code
+.claude/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node (se usado para build)
+node_modules/
+
+# Logs e temporários
+*.log
+*.tmp
+*.cache
+
+# WordPress
+wp-config.php
+
+# Composer — manter vendor/ pois o plugin precisa do Freemius SDK em produção
+# vendor/ ← NÃO ignorar
+
+# Arquivos de build/distribuição
+/dist/
+*.zip
